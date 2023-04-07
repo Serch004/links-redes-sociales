@@ -17,29 +17,31 @@ export default function Home() {
     <main className="bg-cover bg-center min-h-screen" style={{backgroundImage: "url('/Fondo-links.jpg')"}}>
       <div className="container mx-auto px-4 py-16">
       <div className="flex flex-col md:flex-row items-center">
-      <div className="w-full md:w-1/3 mb-12 md:mb-0 md:mr-8 flex justify-center">
+      <div className="w-full md:w-1/3 mb-12 md:mb-12 md:mr-8 flex justify-center">
         <img src="/THE_PICHARD.jpg" alt="Imagen realizada por haku" className="rounded-full w-48 h-48 md:w-full md:h-auto"/>
       </div>
-      <div className="text-center md:text-left w-full md:w-2/3">
-        <h1 className="text-5xl font-bold mb-20 text-teal-200">The Pichard</h1>
+      <div className="text-center md:text-left w-full mb-12 md:w-2/3 mb-12">
+          <div className="text-center md:text-left w-full mb-12 md:w-2/3 mb-12 text-5xl font-extrabold ...">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-emerald-400">The Pichard </span>
+          </div>
         <div className="flex flex-col md:flex-row md:justify-start">
           <a href="https://www.facebook.com/sergio.pichardo.7u7" className="mx-2 my-1 md:my-0">
-            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-gradient-to-r from-blue-600 via-white to-sky-700 hover:text-black transition duration-150 ease-in-out">
+            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-gradient-to-r -s from-blue-600 via-white to-sky-700 hover:text-black transition duration-150 ease-in-out">
               Facebook
             </button>
           </a>
-          <a href="" className="mx-2 my-1 md:my-0">
-            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-blue-700 transition duration-150 ease-in-out">
+          <a href="https://www.instagram.com/sergio_pichardo_7u7/" className="mx-2 my-1 md:my-0">
+            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 transition duration-150 ease-in-out">
               Instagram
             </button>
           </a>
-          <a href="" className="mx-2 my-1 md:my-0">
-            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-blue-700 transition duration-150 ease-in-out">
+          <a href="#">
+            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-gradient-to-b from-purple-600 via-neutral-800 to-purple-600 transition duration-150 ease-in-out">
               Twitch
             </button>
           </a>
           <a href="https://github.com/Serch004" className="mx-2 my-1 md:my-0">
-            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-blue-700 transition duration-150 ease-in-out">
+            <button className="bg-sky-blue text-white font-bold py-4 px-6 rounded-lg focus:outline-none focus:shadow-outline hover:bg-gradient-to-b from-neutral-900 via-neutral-700 to-neutral-900 transition duration-150 ease-in-out">
               Github
             </button>
           </a>
