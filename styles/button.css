@@ -1,0 +1,19 @@
+#facebook:hover {
+    background-image: url('../public/facebook.jpg');
+}
+
+#instagram:hover {
+    background-image: url('../public/insta2.jpg');
+}
+
+#Twitch:hover {
+    background-image: url('../public/Twitch.png');
+}
+
+#github:hover {
+    background-image: url('../public/GitHub.jpg');
+}
+
+#twitter:hover {
+    background-image: url('../public/Twitter.jpg');
+}
